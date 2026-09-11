@@ -1,0 +1,18 @@
+[project]
+name = "pychain-pygraph-pysmith"
+version = "0.1.0"
+description = "Fast lightweight alternatives to langchain, langgraph and langsmith"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+optional-dependencies = { fast = ["numpy>=1.24"], test = ["pytest>=7", "numpy>=1.24"] }
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pychain*", "pygraph*", "pysmith*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

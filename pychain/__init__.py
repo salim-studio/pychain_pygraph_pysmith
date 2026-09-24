@@ -1,3 +1,4 @@
+# Copyright (c) 2026 salim-slimani — MIT License
 """pychain — بديل langchain الأسرع (نفس الأسماء، بدون pydantic/ثقل).
 
 مثال:

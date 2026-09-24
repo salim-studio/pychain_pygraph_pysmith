@@ -1,3 +1,4 @@
+# Copyright (c) 2026 salim-slimani — MIT License
 """pygraph — بديل langgraph الأسرع (نفس الواجهة).
 
 مثال:

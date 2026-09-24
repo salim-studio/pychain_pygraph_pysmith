@@ -1,3 +1,4 @@
+# Copyright (c) 2026 salim-slimani — MIT License
 """pysmith — بديل langsmith الأسرع (تتبع محلي أولاً + تقييم متوازٍ).
 
 مثال:

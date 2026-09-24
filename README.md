@@ -88,3 +88,7 @@ python -m pytest tests/ -q
 - `pychain`: `PromptTemplate`، `ChatPromptTemplate`، `Document`، `RecursiveCharacterTextSplitter`، `HashingEmbeddings`/`FakeEmbeddings`/`OpenAIEmbeddings`، `InMemoryVectorStore` (بأسماء `FAISS`/`Chroma`)، `Runnable*` + عامل `|`، `BaseChatModel`/`ChatOpenAI`/`ChatOllama`، `LLMChain`/`RetrievalQA`، `Tool`/`@tool`، `AgentExecutor`، `ConversationBufferMemory`، `Str/Json/PydanticOutputParser`، `InMemoryCache`/`SQLiteCache`.
 - `pygraph`: `StateGraph`/`MessageGraph`، `START`/`END`، `Command`/`Send`، `MemorySaver`، `invoke`/`stream`/`batch`/`get_state`/`update_state`.
 - `pysmith`: `@traceable`، `Client` (datasets/examples/runs/feedback)، `evaluate`.
+
+## License
+
+Copyright (c) 2026 salim-slimani — MIT License. See [LICENSE](LICENSE).
